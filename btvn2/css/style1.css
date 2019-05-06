@@ -1,0 +1,27 @@
+img{
+	max-width: 500px;
+}
+
+img:hover {
+	border: solid violet;
+	border: 3px
+	border-width: 3px
+	
+}
+
+
+a{
+	text-decoration: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover {
+	color: orange;
+}
+
+a:visited {
+	color: green; 
+}
