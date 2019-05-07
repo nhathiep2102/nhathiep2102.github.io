@@ -1,5 +1,6 @@
 *{
 	box-sizing: border-box;
+
 }
 
 body{
@@ -8,6 +9,8 @@ body{
 div{
 	width: 100%;
 	float: left;
+	display: block;
+	margin: 0 auto;
 }
 
 
@@ -19,7 +22,7 @@ div.menu{
 	text-align: center;
 	font-size: 40px;
 	padding: 20px;
-	background: #C0C0C0;
+	background: #7F8BD9;
 }
 
 div.menu a{
@@ -36,14 +39,15 @@ div.menu a:hover{
 }
 
 div.image img{
+	margin: 0 auto;
 	max-width: 50%;
-	border: 2px solid black;
+	border: 2px solid white;
 	padding-right: 60px;
-	background: #FFCCFF;
+	background: #F0F0F0;
 	}
 
 div.image img:hover{
 	margin: auto;
-	background: red;
-	border: 2px solid blue;
+	opacity: 0.5;
+  	filter: alpha(opacity=50);
 }
