@@ -69,3 +69,22 @@ div.menu a:hover{
 	top: -100px;
     left: 70px;
 }
+
+div.tim img{
+	position: fixed;
+	top: 450px;
+	left: 50px;
+	width: 8%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+}
+
+@keyframes heart {
+	80% {transform: translate(-50%,-50%) scale(0.8)}
+    90% {transform: translate(-50%,-50%) scale(0.9)}
+	100% {transform: translate(-50%,-50%) scale(1)}
+}
+
+div.tim img {
+	animation: heart 1.5s ease infinite;
+}
