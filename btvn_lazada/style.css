@@ -1,0 +1,120 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	width: 100%;
+	margin: 0;
+}
+
+#header{
+	height: 100%;
+	text-align: center;
+}
+
+#header > a{
+	color: orange;
+	padding-right: 20px;
+}
+
+#banner{
+	width: 100%;
+}
+.menu{
+	padding: 8px 0 12px;
+    list-style: none;
+    width: 200px;
+    height: 344px;
+    background: white;
+    top: 0;
+    margin: 0;
+    visibility: inherit;
+    position: relative;
+}
+
+a{
+	text-overflow: ellipsis;
+    display: inline-block;
+    white-space: nowrap;
+    font-family: Roboto-Regular;
+    font-size: 13px;
+    line-height: 27px;
+    color: #757575;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#qc{
+	padding-left: 280px;
+	top: 0;
+	position: absolute;
+}
+
+#qc1{
+	padding-left: 280px;
+	top: 350px;
+	position: absolute;
+}
+
+#qc2{
+	padding-left: 280px;
+	top: 700px;
+	position: absolute;
+}
+
+ul{
+	margin: 0;
+	list-style-type: none;
+}
+.menu > li{
+	position: relative;
+}
+
+.sub-menu{
+	margin-left: 200px;
+	top: -8px;
+	position: absolute;
+	display: none;
+	background: white;
+	height: 344px;
+    
+}
+
+.sub2-menu{
+	margin-left: 200px;
+	top: -54px;
+	position: absolute;
+	height: 344px;
+	display: none;
+	background: white;
+   }
+
+.menu > li:hover .sub-menu{
+	display: block;
+}
+
+li{
+	width: 200px;
+}
+
+.sub-menu > li{
+	position: relative;
+}
+
+.sub-menu > li:hover .sub2-menu{
+	display: block;
+}
+
+.mainmenu a:hover{
+	color: #1a9cb7;
+	background: #eceff1;
+	width: 200px;
+}
+
+div.backtop img{
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	width: 60px;
+	
+}

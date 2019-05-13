@@ -1,0 +1,86 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	width: 100%;
+}
+.menu{
+	height: 54px;
+    background-color: #f7f7f7;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    z-index: 0;
+    padding-left: 15%;
+    padding-top: 15px;
+}
+
+a{
+	padding-right: 35px;
+	text-align: center;
+	font-size: 14px;
+	color: #92929d;
+	font-family: "segoe ui";
+	font-weight: 500;
+	line-height: 1.6;
+	text-decoration: none;
+}
+.menu > li{
+	float: left;
+	list-style-type: none;
+	position: relative;
+}
+
+.menu > li:hover .sub-menu{
+	display: block;
+}
+
+
+.sub-menu{
+	position: absolute;
+	color: black;
+	top: 39px;
+	background: white;
+	width: 600px;
+	height: 150px;
+	padding-top: 15px;
+	display: none;
+}
+
+.sub1-menu{
+	position: absolute;
+}
+
+
+.sub-menu li{
+	float: left;
+	list-style-type: none;
+	padding-right: 30px;
+}
+
+.sub1-menu li{
+	float: none;
+	list-style-type: none;
+	padding-left: 0px;
+	margin: 0;
+}
+
+ul{
+	padding: 0;
+}
+
+.sub1-menu li > a{
+	float: left;
+	padding-top: 15px;
+}
+
+.abc > a{
+	color: #111111;
+}
+
+.menu > li:hover {
+    border-bottom: 1.5px solid #65509e;
+    color: #6e55b4;
+    height: 38px;
+}
