@@ -1,0 +1,32 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	display: block;
+}
+
+.banner a > img{
+	width: 100%;
+}
+
+#content{
+	float: left;
+	text-align: center;
+	overflow: hidden;
+}
+
+#content a > img {
+	width: calc(100% / 4);
+	padding-right: 15px;
+	padding-bottom: 20px;
+	transition: .2s;
+}
+
+#content a > img:hover {
+	transform: scale(1.1);
+	
+}
