@@ -18,7 +18,7 @@ body{
 	height: 40px;
 	text-align: center;
 	background: #CCCCCC;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 
 .menu > a{
@@ -26,7 +26,29 @@ body{
 	text-decoration: none;
 	padding-left: 20px;
 	margin: auto;
-	position: relative;
+	color: #110000;
+	overflow: hidden;
+	transition: .2s; 
+}
+
+.menu > a:hover{
+	transform: scale(1.1);
+	color: #FF0000;
+}
+
+#content > a{
+	float: left;
+	padding-bottom: 60px;
+	text-decoration: none;
+	color: #110000;
+	font-size: 20px;
+	overflow: hidden;
+	transition: .2s;
+}
+
+#content > a:hover{
+	transform: scale(1.1);
+	color: #FF0000;
 }
 
 #content{
@@ -37,9 +59,10 @@ body{
 
 
 #content a > img {
-	width: calc(100% / 4);
-	height: 500px;
-	padding-right: 15px;
+	width: 400px;
+    height: 500px;
+	margin-left: 45px;
+	padding-right: 30px;
 	padding-bottom: 20px;
 	transition: .2s;
 
