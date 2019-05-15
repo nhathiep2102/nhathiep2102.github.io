@@ -11,6 +11,8 @@ body{
 
 header{
 	font-size: 40px;
+	color: #222222;
+	text-align: center;
 }
 
 .banner a > img{
@@ -19,22 +21,27 @@ header{
 
 #content{
 	float: left;
-	text-align: center;
 	overflow: hidden;
+	
 }
+
 
 #content a > img {
 	width: calc(100% / 4);
+	height: 500px;
 	padding-right: 15px;
 	padding-bottom: 20px;
 	transition: .2s;
+	
 }
 
 #content a > img:hover {
 	transform: scale(1.1);
-	
 }
 
-article{
+
+article #dv1{
 	float: left;
+	padding-bottom: 10px;
+	width: 100%;
 }
