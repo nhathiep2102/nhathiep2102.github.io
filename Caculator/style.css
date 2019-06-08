@@ -1,0 +1,104 @@
+	*{
+		font-family: 'Inconsolata';
+		color: #555;
+		margin: auto;
+	}
+
+	 body {
+        background-color: #3fb399;
+    }
+
+    h1{
+    	text-align: center;
+    }
+
+     .container {
+        width: 310px;
+        background-color: #111111;
+        margin: 100px auto;
+        text-align: center;
+    }
+
+    button{
+    	width: 50px;
+        height: 50px;
+        font-size: 24px;
+        background-color: #333333;
+        color: white;
+        border-radius: 20px;
+        border-color: #111111;
+        margin-left: 5px;
+        margin-top: 5px;
+        text-align: center;
+   	}
+
+    sup{
+    	color: white;
+    }
+
+	#AC{
+		width: 110px;
+		background-color: #DDDDDD;
+		color: black;
+	}
+
+	#del{
+		width: 110px;
+		background-color: #DDDDDD;
+		color: black;
+	}
+
+	
+	#so0{
+		width: 106px;
+		margin-bottom: 10px;
+	}
+
+	#daucong{
+		background-color: #FF9900;
+	}
+
+	#dautru{
+		background-color: #FF9900;
+	}
+
+	#daunhan{
+		background-color: #FF9900;
+	}
+
+	#dauchia{
+		background-color: #FF9900;
+	}
+
+	#daubang{
+		background-color: #FF9900;
+	}
+
+	#bp{
+		background-color: #CC00FF;
+	}
+
+	#cbh{
+		background-color: #CC00FF;
+	}
+
+	#sin{
+		background-color: #CC00FF;
+	}
+
+	#cos{
+		background-color: #CC00FF;
+	}
+
+    #result {
+    	width: 280px;
+        height: 80px;
+        font-size: 40px;
+        vertical-align: bottom;
+        text-align: right;
+        background-color: #111111;
+        color: white;
+        border-color: #111111;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
