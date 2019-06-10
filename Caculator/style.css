@@ -1,7 +1,7 @@
 	*{
 		font-family: 'Inconsolata';
 		color: #555;
-		margin: auto;
+		box-sizing: border-box;
 	}
 
 	 body {
@@ -99,6 +99,5 @@
         background-color: #111111;
         color: white;
         border-color: #111111;
-        margin-top: 5px;
-        margin-left: 5px;
+        
     }
