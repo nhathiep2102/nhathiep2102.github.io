@@ -1,49 +1,50 @@
+let a = document.getElementById('result');
 //press
 function press(button){
-	document.getElementById('result').value += button.innerHTML;
+	a.value += button.innerHTML;
 }
 
 function press2(button){
-	document.getElementById('result').value += "*";
+	a.value += "*";
 }
 
 function press1(button){
-	document.getElementById('result').value += '/';
+	a.value += '/';
 }
 
 //Ket qua tinh
 function equal(){
-	document.getElementById('result').value = eval(result.value);
+	a.value = eval(a.value);
 }
 
 //Bình Phương
 function bp(){
-	document.getElementById('result').value = result.value * result.value;
+	a.value = Math.pow(a.value, 2);
 }
 
 //Căn bậc 2:
 function cbh(){
-	document.getElementById('result').value = Math.sqrt(result.value);
+	a.value = Math.sqrt(a.value);
 }
 
 //Tính sin:
 function tinhsin(){
-	document.getElementById('result').value = Math.sin(result.value);
+	a.value = Math.sin(a.value);
 }
 
 //Tính cos:
 function tinhcos(){
-	document.getElementById('result').value = Math.cos(result.value);
+	a.value = Math.cos(a.value);
 }
 
 //Nút xóa:
 function back(){
 	var x = result.value;
-	document.getElementById('result').value = x.substring(0, x.length - 1);
+	a.value = x.substring(0, x.length - 1);
 }
 
 //AC:
 function clean(){
-	document.getElementById('result').value = "";
+	a.value = "";
 }
 
