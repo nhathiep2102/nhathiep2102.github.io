@@ -1,0 +1,133 @@
+html, body{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-image: radial-gradient(circle, #020101, #171616, #252324, #333234, #414144);
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.container{
+	width: 100%;
+	min-height: 100%;
+	position: relative;
+}
+
+span{
+	color: #FF0000;
+	font-style: italic;
+	margin-left: 5px;
+}
+
+h1{
+	color: #EEEEEE;
+	font-size: 30px;
+	margin-bottom: 5px;
+}
+
+header{
+	margin: 0;
+}
+
+#anh1{
+	width: 100%;
+}
+
+#anh2{
+	float: left;
+ 	width: calc(100% / 2);
+ 	position: absolute;
+ 	top: 140px;
+ 	left: 10px;
+}
+
+#anh3{
+	width: 100%;
+}
+
+.regis{
+	float: left;
+    width: 500px;
+    position: absolute;
+    top: 100px;
+    right: 20px;
+}
+
+input{
+	width: 200px;
+	margin-bottom: 5px;
+}
+
+input:hover{
+	cursor: pointer;
+}
+
+label{
+	color: #EEEEEE;
+}
+
+#male{
+	width: 13px;
+}
+
+#female{
+	width: 13px;
+}
+
+#other{
+	width: 13px;
+}
+
+#bday{
+	text-align: center;
+	width: 200px;
+}
+
+p{
+	margin-bottom: 5px;
+	font-weight: bold;
+	color: #EEEEEE;
+}
+
+select{
+	margin-bottom: 10px;
+	height: 25px;
+	width: 180px;
+}
+
+#dangky{
+	font-size: 20px;
+	width: 120px;
+	margin-left: 30px;
+	border-radius: 5px;
+}
+
+footer{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	height: auto;
+}
+
+
+button{
+	text-align: left;
+}
+
+.wrap{
+	min-height: 100%;
+	position: relative;
+}
+
+#ftrs{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: auto;
+}
+
+.sucess{
+	text-align: center;
+}

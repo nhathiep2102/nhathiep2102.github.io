@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lexus Vietnam</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+</head>
+<body>
+	<div class="wrap">
+		<header>
+			<a href="index.html"><img src="img/anh1.jpg" id="anh1" alt="anh1" title="Lexus header"></a>
+		</header>
+		<div class="sucess">
+		<h1>ĐĂNG KÝ THÀNH CÔNG!</h1>
+
+		<button id="info" onclick="myFunction()">Thông tin đăng ký</button>
+		</div>
+
+		<footer id="ftrs">
+			<img src="img/anh3.jpg" id="anh3" alt="anh3" title="Lexus footer">
+		</footer>
+	</div>
+
+
+	<script src="jquery-3.4.1.min.js"></script>
+	<script>
+		function myFunction() {
+			let a = document.URL;
+			let b = decodeURIComponent(a);
+			let c = b.replace(/[&?]/g, '<br/>').replace(/[+]/g, ' ').replace(/=/g, ': ');
+			let d = document.URL.split('?')[0];
+			let kq = c.replace(d, '');
+			$("#info").html(kq);
+		}
+	</script>
+</body>
+</html>

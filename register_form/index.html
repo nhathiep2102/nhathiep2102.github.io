@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lexus Vietnam</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<a href="#"><img src="img/anh1.jpg" id="anh1" alt="anh1" title="Lexus header"></a>
+		</header>
+		<div class="dk">
+			<div class="back">
+				<img src="img/anh2.jpg" id="anh2" alt="anh2" title="Lexus ES">
+			</div>
+			<div class="regis">
+				<h1>ĐĂNG KÝ LÁI THỬ</h1>
+				<form action="result.html" id="form-register">
+					<input type="text" name="Họ-Tên" placeholder="Họ & Tên" id="name"><span class="error"></span><br/>
+					<input type="text" name="Email" placeholder="Email" id="email"><span class="error"></span><br/>
+					<input type="password" name="Mật khẩu" placeholder="Mật khẩu" id="password"><span class="error"></span><br/>
+					<input type="text" name="Facebook" placeholder="Facebook" id="fb"><span class="error"></span><br/>
+					<input type="text" name="Phone" placeholder="Số điện thoại" id="phone"><span class="error"></span><br/>
+					<input type="text" name="Địa chỉ" placeholder="Địa chỉ" id="address"><span class="error"></span><br/>
+
+					<p>Ngày sinh:</p>
+					<input type="date" name="Ngày sinh" id="bday"/><span class="error"></span><br/>
+
+					<p>Giới tính:</p>
+					<input type="radio" name="Giới tính" id="male" value="Nam" /> <label for="male">Nam</label>
+					<input type="radio" name="Giới tính" id="female" value="Nữ" /> <label for="female">Nữ</label>
+					<input type="radio" name="Giới tính" id="other" value="Khác" /> <label for="other">Other</label><span class="error"></span><br/>
+
+					<p>Chọn đại lý lái thử:</p>
+					<select name="Đại lý" id="shop">
+						<option>Chọn đại lý...</option>
+						<option>Lexus Thăng Long</option>
+						<option>Lexus Sài Gòn</option>
+					</select><span class="error"></span><br/>
+
+					<input type="submit" value="Đăng ký" id="dangky" />
+				</form>
+			</div>
+		</div>
+
+		<footer>
+			<img src="img/anh3.jpg" id="anh3" alt="anh3" title="Lexus footer">
+		</footer>
+	</div>
+
+	<script src="jquery-3.4.1.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
