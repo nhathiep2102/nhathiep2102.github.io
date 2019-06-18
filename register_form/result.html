@@ -12,9 +12,8 @@
 			<a href="index.html"><img src="img/anh1.jpg" id="anh1" alt="anh1" title="Lexus header"></a>
 		</header>
 		<div class="sucess">
-		<h1>ĐĂNG KÝ THÀNH CÔNG!</h1>
-
-		<button id="info" onclick="myFunction()">Thông tin đăng ký</button>
+			<h1>ĐĂNG KÝ THÀNH CÔNG!</h1>
+			<p id="info"></p>
 		</div>
 
 		<footer id="ftrs">
@@ -25,14 +24,12 @@
 
 	<script src="jquery-3.4.1.min.js"></script>
 	<script>
-		function myFunction() {
-			let a = document.URL;
-			let b = decodeURIComponent(a);
-			let c = b.replace(/[&?]/g, '<br/>').replace(/[+]/g, ' ').replace(/=/g, ': ');
-			let d = document.URL.split('?')[0];
-			let kq = c.replace(d, '');
-			$("#info").html(kq);
-		}
+		let a = document.URL;
+		let b = decodeURIComponent(a);
+		let c = b.replace(/[&?]/g, '<br/>').replace(/[+]/g, ' ').replace(/=/g, ': ');
+		let d = document.URL.split('?')[0];
+		let kq = c.replace(d, '');
+		$("#info").html(kq).style('float', 'left');
 	</script>
 </body>
 </html>
