@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table</title>
+	<meta charset="utf-8">
+	<style >
+		body{
+			text-align: center;
+			margin: 30px;
+		}
+		table{
+			border: 1px solid black;
+			border-collapse: collapse;
+			margin: 0 auto;
+			width: 100%;
+		}
+
+		tr,th,td{
+			border: 1px solid black;
+		}
+		tr:nth-child(even) {
+ 		 	background-color: #EEEEF6;
+		}
+		
+		tr:hover{
+			background-color: #A2A2A6;
+		}
+		thead > tr {
+			background-color: #F4A2D4;
+		}
+		img{
+			max-height: 75px;
+		}
+		th{
+			height: 40px;
+			font-size: 20px;
+		}
+		button{
+			float: right;
+		}
+	</style>
+</head>
+<body>
+	<h1>DANH SÁCH SẢN PHẨM TOYOTA VIỆT NAM</h1>
+	
+	<table id="myTable">
+		<thead>
+			<tr>
+				<th>Image</th>
+				<th>Name <button  onclick="sortName()">&darr;</button></th>
+				<th>Series <button  onclick="sortSeries()">&darr;</button></th>
+				<th>Price (USD) <button  onclick="sortPrice()">&darr;</button></th>
+				<th>Amount <button  onclick="sortAmount()">&darr;</button></th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><img src="img/camry.png"></td>
+				<td>Camry</td>
+				<td>T089</td>
+				<td>51.000</td>
+				<td>20</td>
+			</tr>
+			<tr>
+				<td><img src="img/fortuner.png"></td>
+				<td>Fortuner</td>
+				<td>D218</td>
+				<td>50.000</td>
+				<td>15</td>
+			</tr>
+			<tr>
+				<td><img src="img/altis.png"></td>
+				<td>Altis</td>
+				<td>B1D4</td>
+				<td>45.000</td>
+				<td>33</td>
+			</tr>
+			<tr>
+				<td><img src="img/yaris.png"></td>
+				<td>Yaris</td>
+				<td>D3R3</td>
+				<td>32.000</td>
+				<td>24</td>
+			</tr>
+			<tr>
+				<td><img src="img/vios.png"></td>
+				<td>Vios</td>
+				<td>B4R0</td>
+				<td>35.000</td>
+				<td>88</td>
+			</tr>
+			<tr>
+				<td><img src="img/alphard.png"></td>
+				<td>Alphard</td>
+				<td>G4X7</td>
+				<td>85.000</td>
+				<td>10</td>
+			</tr>
+		</tbody>
+
+	</table>
+
+	<script src="script.js"></script>
+
+</body>
+</html>
