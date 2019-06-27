@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table DOM</title>
+	<meta charset="utf-8">
+	<style >
+		body{
+			text-align: center;
+			margin: 30px;
+		}
+		table{
+			border: 1px solid black;
+			border-collapse: collapse;
+			margin: 0 auto;
+			width: 100%;
+		}
+
+		tr,th,td{
+			border: 1px solid black;
+		}
+		tr:nth-child(even) {
+ 		 	background-color: #EEEEF6;
+		}
+		
+		tr:hover{
+			background-color: #A2A2A6;
+		}
+		thead > tr {
+			background-color: #F4A2D4;
+		}
+		img{
+			max-height: 75px;
+		}
+		th{
+			height: 40px;
+			font-size: 20px;
+		}
+		button{
+			float: right;
+		}
+	</style>
+</head>
+<body>
+	<h1>DANH SÁCH SẢN PHẨM TOYOTA VIỆT NAM</h1>
+	<table id="myTable">
+	<thead>
+			<tr>
+				<th>Image</th>
+				<th onclick="sortName()">Name</th>
+				<th onclick="sortSeries()">Series</th>
+				<th onclick="sortPrice()">Price (USD)</th>
+				<th onclick="sortAmount()">Amount</th>
+			</tr>
+	</thead>
+	<tbody id="myTbody"></tbody>
+
+	</table>
+	<div>Tổng giá sản phẩm: <span id="tong"></span></div>
+	
+	<script src="script2.js"></script>
+
+</body>
+</html>
+
