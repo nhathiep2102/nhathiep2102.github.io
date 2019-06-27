@@ -43,10 +43,10 @@ let product = [{
 ]
 
 function renderProduct() {
-    let table = document.getElementById('myTbody');
-    table.innerHTML = "";
+    let content = '';
+
     for (let i = 0; i < product.length; i++) {
-        table.innerHTML +=
+        content +=
             `<tr>
 				<td><img src = ${product[i].img}></td> 
 				<td> ${product[i].name} </td> 
@@ -55,8 +55,9 @@ function renderProduct() {
 				<td> ${product[i].amount} </td>
 			</tr>`;
     }
+    document.getElementById('myTbody').innerHTML = content;
 }
-renderProduct();
+renderProduct()
 
 function tinhTong() {
     let sum = 0;
