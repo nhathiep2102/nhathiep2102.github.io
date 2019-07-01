@@ -54,6 +54,7 @@ function renderProduct() {
 				<td> ${product[i].price} </td> 
 				<td> ${product[i].amount} </td>
 			</tr>`;
+
     }
     document.getElementById('myTbody').innerHTML = content;
 }
