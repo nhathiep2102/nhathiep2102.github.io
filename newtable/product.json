@@ -1,4 +1,4 @@
-{"product":[{
+[{
         "img": "img/camry.png",
         "name": "Camry",
         "series": "T089",
@@ -39,5 +39,4 @@
         "series": "G4X0",
         "price": 85000,
         "amount": 11,
-    }
-]};
+    }]
