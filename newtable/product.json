@@ -3,40 +3,40 @@
         "name": "Camry",
         "series": "T089",
         "price": 51000,
-        "amount": 20,
+        "amount": 20
     },
     {
         "img": "img/fortuner.png",
         "name": "Fortuner",
         "series": "D218",
         "price": 50000,
-        "amount": 15,
+        "amount": 15
     },
     {
         "img": "img/altis.png",
         "name": "Altis",
         "series": "B1D4",
         "price": 45000,
-        "amount": 33,
+        "amount": 33
     },
     {
         "img": "img/yaris.png",
         "name": "Yaris",
         "series": "D3R3",
         "price": 32000,
-        "amount": 24,
+        "amount": 24
     },
     {
         "img": "img/vios.png",
         "name": "Vios",
         "series": "B4R0",
         "price": 35000,
-        "amount": 88,
+        "amount": 88
     },
     {
         "img": "img/alphard.png",
         "name": "Alphard",
         "series": "G4X0",
         "price": 85000,
-        "amount": 11,
+        "amount": 11
     }]
