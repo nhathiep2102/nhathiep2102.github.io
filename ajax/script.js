@@ -21,3 +21,4 @@ function loadDoc() {
   xhttp.open("GET", "https://raw.githubusercontent.com/nhathiep2102/nhathiep2102.github.io/master/ajax/product.json", true);
   xhttp.send();
 }
+loadDoc()
