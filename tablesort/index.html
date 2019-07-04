@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table SORT</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+	<style>
+		body{
+			text-align: center;
+			margin: 20px;
+		}
+		table{
+			border: 1px solid black;
+			border-collapse: collapse;
+			margin: 0 auto;
+			width: 70%;
+		}
+
+		tr,th,td{
+			border: 1px solid black;
+		}
+		tr:nth-child(even) {
+ 		 	background-color: #EEEEF6;
+		}
+		
+		tr:hover{
+			background-color: #A2A2A6;
+		}
+		thead > tr {
+			background-color: #F4A2D4;
+		}
+		img{
+			max-height: 75px;
+		}
+		th{
+			height: 40px;
+			font-size: 20px;
+		}
+		button{
+			float: right;
+		}
+		i{
+			float: right;
+			margin-right: 5px;
+			padding-top: 4px;
+			font-size: 80%;
+		}
+	</style>
+</head>
+<body>
+	<h1>DANH SÁCH SẢN PHẨM TOYOTA VIỆT NAM</h1>
+	<table id="myTable">
+	<thead>
+			<tr>
+				<th>Image</th>
+				<th data-column='name' data-order='asc' onclick="sortColumn(this)">Name<i class="fas fa-random"></i></th>
+				<th data-column='series' data-order='asc' onclick="sortColumn(this)">Series <i class="fas fa-random"></i></th>
+				<th data-column='price' data-order='asc' onclick="sortColumn(this)">Price (USD) <i class="fas fa-random"></i></th>
+				<th data-column='amount' data-order='asc' onclick="sortColumn(this)">Amount <i class="fas fa-random"></i></th>
+			</tr>
+	</thead>
+	<tbody id="myTbody"></tbody>
+
+	</table>
+	
+
+	<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="script.js"></script>
+
+</body>
+</html>
+
