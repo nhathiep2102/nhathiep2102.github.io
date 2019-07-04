@@ -64,24 +64,25 @@ renderProduct()
 //Sắp xếp:
 function sortColumn(thElement) {
     thElement = $(thElement);
+    const sort = thElement.attr('data-order');
     const column = thElement.attr('data-column');
 
-    if(thElement.attr('data-order') === 'asc'){
+    if(sort === 'asc'){
         thElement.attr('data-order', 'desc');
         thElement.children().removeClass('fas fa-sort-amount-down');
         thElement.children().addClass('fas fa-sort-amount-down-alt');
-        sortAz(column);
+        sortAz(column, sort);
     }
     else{
         thElement.attr('data-order', 'asc');
         thElement.children().removeClass('fas fa-sort-amount-down-alt');
         thElement.children().addClass('fas fa-sort-amount-down');
-        sortZa(column);
+        sortAz(column, sort);
     }
     renderProduct();
 }
 
-function sortAz(column) {
+function sortAz(column, sort) {
   product.sort(function (a, b) {
     let x = a[column];
     let y = b[column];
@@ -94,20 +95,7 @@ function sortAz(column) {
 
     return 0;
   })
+  if(sort == 'desc'){
+    return product.reverse();
+  }
 }
-
-function sortZa(column) {
-  product.sort(function (a, b) {
-    let x = a[column];
-    let y = b[column];
-
-    if (typeof x == 'string') x = x.toLocaleLowerCase()
-    if (typeof y == 'string') y = y.toLocaleLowerCase()
-
-    if (x < y) return 1;
-    if (x > y) return -1;
-
-    return 0;
-  })
-}
-renderProduct();
