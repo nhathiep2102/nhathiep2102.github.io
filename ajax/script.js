@@ -22,3 +22,54 @@ function loadDoc() {
   xhttp.send();
 }
 loadDoc()
+
+//Sắp xếp:
+function sortColumn(thElement) {
+    thElement = $(thElement);
+    const column = thElement.attr('data-column');
+
+    if(thElement.attr('data-order') === 'asc'){
+        thElement.attr('data-order', 'desc');
+        thElement.children().removeClass('fas fa-sort-amount-down');
+        thElement.children().addClass('fas fa-sort-amount-down-alt');
+        sortAz(column);
+    }
+    else{
+        thElement.attr('data-order', 'asc');
+        thElement.children().removeClass('fas fa-sort-amount-down-alt');
+        thElement.children().addClass('fas fa-sort-amount-down');
+        sortZa(column);
+    }
+    loadDoc();
+}
+
+function sortAz(column) {
+  product.sort(function (a, b) {
+    let x = a[column];
+    let y = b[column];
+
+    if (typeof x == 'string') x = x.toLocaleLowerCase()
+    if (typeof y == 'string') y = y.toLocaleLowerCase()
+
+    if (x < y) return -1;
+    if (x > y) return 1;
+
+    return 0;
+  })
+}
+
+function sortZa(column) {
+  product.sort(function (a, b) {
+    let x = a[column];
+    let y = b[column];
+
+    if (typeof x == 'string') x = x.toLocaleLowerCase()
+    if (typeof y == 'string') y = y.toLocaleLowerCase()
+
+    if (x < y) return 1;
+    if (x > y) return -1;
+
+    return 0;
+  })
+}
+loadDoc();
