@@ -26,25 +26,27 @@ loadDoc()
 //Sắp xếp:
 function sortColumn(thElement) {
     thElement = $(thElement);
-    const sort = thElement.attr('data-order');
+    
     const column = thElement.attr('data-column');
+    $('.fas fa-sort-amount-down').removeClass('fas fa-sort-amount-down').addClass('fas fa-random');
+    $('.fas fa-sort-amount-alt').removeClass('fas fa-sort-amount-alt').addClass('fas fa-random');
 
-    if(sort === 'asc'){
+    if(thElement.attr('data-order') === 'asc'){
         thElement.attr('data-order', 'desc');
-        thElement.children().removeClass('fas fa-sort-amount-down');
-        thElement.children().addClass('fas fa-sort-amount-down-alt');
-        sortAz(column, sort);
+        thElement.children().removeClass('fas fa-sort-amount-down').addClass('fas fa-sort-amount-down-alt');
+        
+        sortAll(column, 1);
     }
     else{
         thElement.attr('data-order', 'asc');
-        thElement.children().removeClass('fas fa-sort-amount-down-alt');
-        thElement.children().addClass('fas fa-sort-amount-down');
-        sortAz(column, sort);
+        thElement.children().removeClass('fas fa-sort-amount-down-alt').addClass('fas fa-sort-amount-down');
+        
+        sortAll(column, -1);
     }
     loadDoc();
 }
 
-function sortAz(column) {
+function sortAll(column, number) {
   product.sort(function (a, b) {
     let x = a[column];
     let y = b[column];
@@ -52,13 +54,8 @@ function sortAz(column) {
     if (typeof x == 'string') x = x.toLocaleLowerCase()
     if (typeof y == 'string') y = y.toLocaleLowerCase()
 
-    if (x < y) return -1;
-    if (x > y) return 1;
+    if (x < y) return number;
+    if (x > y) return number;
 
     return 0;
   })
-  if(sort == 'desc'){
-    return product.reverse();
-  }
-}
-

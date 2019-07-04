@@ -1,45 +1,14 @@
-let product = [{
-        img: "img/camry.png",
-        name: "Camry",
-        series: "T089",
-        price: 51000,
-        amount: 20,
-    },
-    {
-        img: "img/fortuner.png",
-        name: "Fortuner",
-        series: "D218",
-        price: 50000,
-        amount: 15,
-    },
-    {
-        img: "img/altis.png",
-        name: "Altis",
-        series: "B1D4",
-        price: 45000,
-        amount: 33,
-    },
-    {
-        img: "img/yaris.png",
-        name: "Yaris",
-        series: "D3R3",
-        price: 32000,
-        amount: 24,
-    },
-    {
-        img: "img/vios.png",
-        name: "Vios",
-        series: "B4R0",
-        price: 35000,
-        amount: 88,
-    },
-    {
-        img: "img/alphard.png",
-        name: "Alphard",
-        series: "G4X0",
-        price: 85000,
-        amount: 11,
-    }]
+let product = [];
+
+    $.ajax({
+        url: 'https://raw.githubusercontent.com/nhathiep2102/nhathiep2102.github.io/master/ajax/product.json',
+        type: 'get',
+        dataType: 'json',
+    }).done(function (data) {
+        product = data;
+        renderProduct();
+    });
+
 
 function renderProduct() {
     let content = '';
@@ -59,30 +28,32 @@ function renderProduct() {
 renderProduct()
 
 
-
-
 //Sắp xếp:
 function sortColumn(thElement) {
     thElement = $(thElement);
-    const sort = thElement.attr('data-order');
+    
     const column = thElement.attr('data-column');
 
-    if(sort === 'asc'){
+    //reset biểu tượng về ban đầu:
+    $('i.fas').attr('class', 'fas fa-random');
+
+    if(thElement.attr('data-order') === 'asc'){
         thElement.attr('data-order', 'desc');
-        thElement.children().removeClass('fas fa-sort-amount-down');
-        thElement.children().addClass('fas fa-sort-amount-down-alt');
-        sortAz(column, sort);
+        thElement.children().removeClass('fas fa-sort-amount-down').addClass('fas fa-sort-amount-down-alt');
+        
+        sortAll(column, 1);
     }
     else{
         thElement.attr('data-order', 'asc');
-        thElement.children().removeClass('fas fa-sort-amount-down-alt');
-        thElement.children().addClass('fas fa-sort-amount-down');
-        sortAz(column, sort);
+        thElement.children().removeClass('fas fa-sort-amount-down-alt').addClass('fas fa-sort-amount-down');
+        
+        sortAll(column, -1);
     }
     renderProduct();
 }
 
-function sortAz(column, sort) {
+//gán number sort 2 chiều
+function sortAll(column, number) {
   product.sort(function (a, b) {
     let x = a[column];
     let y = b[column];
@@ -90,12 +61,10 @@ function sortAz(column, sort) {
     if (typeof x == 'string') x = x.toLocaleLowerCase()
     if (typeof y == 'string') y = y.toLocaleLowerCase()
 
-    if (x < y) return -1;
-    if (x > y) return 1;
+    if (x < y) return -number;
+    if (x > y) return number;
 
     return 0;
   })
-  if(sort == 'desc'){
-    return product.reverse();
-  }
+  
 }
