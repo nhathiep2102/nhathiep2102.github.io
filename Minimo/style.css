@@ -1,0 +1,188 @@
+@font-face {
+    font-family: playfair_display;
+    src: url("FONTS/Playfair_Display/PlayfairDisplay-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: inconsolata;
+    src: url("FONTS/Inconsolata/inconsolata.regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: ubuntu;
+    src: url("FONTS/Ubuntu/Ubuntu-Light.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'playfair_display';
+    font-size: 14px;
+    color: #626262;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1062px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+nav.navbar.navbar-expand-sm.navbar-light.bg-light {
+    background-color: #ffffff !important;
+    padding: 0;
+    margin-top: 50px;
+}
+
+.navbar-brand {
+    font-family: 'inconsolata';
+    font-size: 30px;
+    color: #000000;
+}
+
+a.nav-link {
+    margin-right: 50px;
+}
+
+a#atv.nav-link {
+    margin-right: 0px;
+    padding-right: 0;
+}
+
+#list {
+    text-transform: uppercase;
+}
+
+#banner {
+    margin-bottom: 96px;
+}
+
+h3 {
+    font-family: 'ubuntu';
+    color: #b4ad9e;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-family: 'playfair_display';
+    color: #626262;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+#lev {
+    margin-top: 55px;
+    margin-bottom: 135px;
+}
+
+.tag {
+    margin-top: 32px;
+    margin-bottom: 30px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+
+.title {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.des {
+    width: 420px;
+    height: 78px;
+    margin-bottom: 135px;
+}
+
+section#s2 {
+    background-color: #f0f0f0;
+    font-family: 'playfair_display';
+    text-align: center;
+    height: 287px;
+    margin-bottom: 103px;
+}
+
+#s2>h2 {
+    font-size: 30px;
+    padding-top: 75px;
+}
+
+div.email {
+    width: 399px;
+    border-bottom: #000000;
+    margin: 0 auto;
+    border-bottom: solid 1px #000000;
+}
+
+.load {
+    text-align: center;
+    margin-top: 175px;
+    margin-bottom: 175px;
+}
+
+#add {
+    width: 350px;
+    height: 40px;
+    background-color: #f0f0f0;
+    border-color: #f0f0f0;
+    border: solid 0px;
+}
+
+button {
+    background-color: #ffffff;
+    border: solid 1px #626262;
+    font-family: 'playfair_display';
+    font-size: 20px;
+    color: #626262;
+    width: 162px;
+    height: 58px;
+}
+
+footer {
+    font-family: 'playfair_display';
+    font-size: 14px;
+    height: 100px;
+    background-color: #f0f0f0;
+}
+
+footer>a {
+    float: left;
+    padding-right: 15px;
+    color: #626262;
+    padding-top: 38px;
+}
+
+footer>a:hover {
+    text-decoration: none;
+    color: #626262;
+}
+
+#a1 {
+    padding-left: 100px;
+}
+
+footer>img {
+    float: right;
+    padding-right: 15px;
+    padding-top: 38px;
+}
+
+footer>img:hover {
+    cursor: pointer;
+}
+
+#ft3 {
+    padding-right: 65px;
+}
+
+footer>p {
+    float: right;
+    padding-right: 22px;
+    padding-top: 38px;
+}
