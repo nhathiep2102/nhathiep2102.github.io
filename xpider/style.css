@@ -1,0 +1,98 @@
+@font-face {
+    font-family: aileron_regular;
+    src: url("font/Aileron-Regular.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: aileron_bold;
+    src: url("font/Aileron-Bold.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: aileron_black;
+    src: url("font/Aileron-Black.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: aileron_semibold;
+    src: url("font/Aileron-SemiBold.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    background-image: url("img/BG.png");
+    height: 719px;
+}
+
+a.nav-link {
+    margin-left: 45px;
+    font-family: "aileron_regular";
+    font-size: 17px;
+    color: #ffffff;
+}
+
+a.navbar-brand {
+    font-family: "aileron_bold";
+    font-size: 26px;
+    color: #ffffff;
+}
+
+#c2 {
+    padding-left: 25px;
+    padding-right: 0;
+}
+
+#hed {
+    font-family: "aileron_black";
+    font-size: 48px;
+    color: #ffffff;
+    margin-top: 218px;
+}
+
+#p1 {
+    font-family: "aileron_semibold";
+    font-size: 18px;
+    color: #D2D2D2;
+    width: 520px;
+    margin-top: 47px;
+    margin-bottom: 61px;
+}
+
+#rv {
+    font-family: "aileron_semibold";
+    font-size: 16px;
+    color: #ffffff;
+    padding-left: 11px;
+    margin-top: 61px;
+}
+
+#rv:hover {
+    text-decoration: none;
+}
+
+#star {
+    margin-top: -4px;
+}
+
+#app {
+    margin-left: -23px;
+}
+
+#mbs {
+    position: absolute;
+    margin-top: 153px;
+    left: 130px;
+}
+
+#mbl {
+    position: relative;
+    margin-top: 218px;
+    margin-left: 19px;
+}
