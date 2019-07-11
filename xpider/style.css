@@ -26,9 +26,17 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: aileron_lightitalic;
+    src: url("font/Aileron-LightItalic.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
 header {
     background-image: url("img/BG.png");
     height: 719px;
+    margin-bottom: 350px;
 }
 
 a.nav-link {
@@ -95,4 +103,260 @@ a.navbar-brand {
     position: relative;
     margin-top: 218px;
     margin-left: 19px;
+}
+
+#why {
+    font-family: "aileron_bold";
+    font-size: 16px;
+    color: #7E8085;
+}
+
+.sp {
+    font-family: "aileron_bold";
+    font-size: 34px;
+    color: #2C2E30;
+}
+
+.link1 {
+    font-family: "aileron_bold";
+    font-size: 24px;
+    color: #2C2E30;
+    margin-left: 21px;
+}
+
+.pr1 {
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: "aileron_regular";
+    color: #54565A;
+}
+
+.link2 {
+    font-family: "aileron_semibold";
+    color: #2F5BEA;
+}
+
+.link1:hover {
+    text-decoration: none;
+    color: #2C2E30;
+}
+
+.link2:hover {
+    text-decoration: none;
+    color: #2F5BEA;
+}
+
+.pr {
+    margin-top: 84px;
+    border-bottom: solid 2px #E7EAEE;
+}
+
+.pr11 {
+    margin-bottom: 106px;
+}
+
+.man {
+    font-family: "aileron_bold";
+    font-size: 16px;
+    color: #7E8085;
+    padding-top: 140px;
+    padding-bottom: 44px;
+}
+
+.help {
+    font-family: "aileron_bold";
+    font-size: 34px;
+    color: #2C2E30;
+    padding-bottom: 40px;
+}
+
+.pr2 {
+    font-family: "aileron_regular";
+    font-size: 16px;
+    color: #54565A;
+    padding-bottom: 50px;
+}
+
+#find {
+    font-family: "aileron_bold";
+    font-size: 16px;
+    color: #2C2E30;
+    padding-bottom: 9px;
+    border-bottom: solid 3px #2F5BEA;
+}
+
+#find:hover {
+    text-decoration: none;
+    color: #2C2E30;
+}
+
+#tail {
+    padding-left: 10px;
+}
+
+#video {
+    padding-left: 20px;
+    padding-top: 111px;
+    padding-bottom: 44px;
+}
+
+#sc3 {
+    background-image: url("img/Group\ 2.png");
+    height: 704px;
+}
+
+#eve {
+    font-family: "aileron_bold";
+    font-size: 16px;
+    color: #D2D2D2;
+    padding-top: 214px;
+    padding-bottom: 20px;
+}
+
+#use {
+    font-family: "aileron_bold";
+    font-size: 34px;
+    color: #ffffff;
+    padding-bottom: 15px;
+}
+
+#pr3 {
+    font-family: "aileron_regular";
+    font-size: 16px;
+    color: #D2D2D2;
+}
+
+#mb1 {
+    padding-top: 120px;
+}
+
+#pr4 {
+    font-family: "aileron_regular";
+    font-size: 16px;
+    color: #D2D2D2;
+    padding-top: 404px;
+    padding-left: 44px;
+    width: 353px;
+}
+
+#more {
+    font-family: "aileron_bold";
+    font-size: 16px;
+    color: #7E8085;
+    margin-top: 252px;
+}
+
+.prop {
+    font-family: "aileron_bold";
+    font-size: 34px;
+    color: #2C2E30;
+}
+
+#per {
+    margin-top: 110px;
+    margin-bottom: 137px;
+}
+
+#pr51 {
+    margin-top: 132px;
+    margin-left: 80px;
+}
+
+.book {
+    margin-right: 19px;
+    margin-bottom: 19px;
+}
+
+.ins {
+    font-family: "aileron_bold";
+    font-size: 24px;
+    color: #2C2E30;
+}
+
+.pr5 {
+    font-family: "aileron_regular";
+    font-size: 16px;
+    color: #54565A;
+    width: 366px;
+}
+
+#pr52 {
+    margin-top: 60px;
+    margin-left: 80px;
+}
+
+#pr53 {
+    margin-top: 60px;
+    margin-left: 80px;
+}
+
+#sc4 {
+    background-color: #151C32;
+    height: 1078px;
+}
+
+#team {
+    font-family: "aileron_bold";
+    font-size: 16px;
+    color: #7E8085;
+    margin-top: 123px;
+    margin-bottom: 30px;
+}
+
+.peo {
+    font-family: "aileron_bold";
+    font-size: 46px;
+    color: #ffffff;
+}
+
+#pr6 {
+    font-family: "aileron_lightitalic";
+    font-size: 28px;
+    color: #C9CDD5;
+    width: 421px;
+    margin-top: 155px;
+}
+
+#fr {
+    font-family: "aileron_bold";
+    font-size: 21px;
+    color: #ffffff;
+    margin-top: 55px;
+}
+
+#fr1 {
+    font-family: "aileron_regular";
+    font-size: 16px;
+    color: #7E8085;
+}
+
+#cli {
+    margin-top: 133px;
+}
+
+#cli1 {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+#sc5 {
+    background-image: url("img/Group\ 2.png");
+    height: 600px;
+}
+
+#try {
+    margin-top: 183px;
+    margin-bottom: 31px;
+    font-family: "aileron_bold";
+    font-size: 34px;
+    color: #ffffff;
+    text-align: center;
+}
+
+#mil {
+    text-align: center;
+    font-family: "semi_regular";
+    font-size: 18px;
+    color: #D2D2D2;
+    width: 556px;
 }
