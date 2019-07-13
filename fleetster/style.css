@@ -1,0 +1,334 @@
+@font-face {
+    font-family: 'muliregular';
+    src: url('font/muli-webfont.woff2') format('woff2'), url('font/muli-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mulibold';
+    src: url('font/muli-bold-webfont.woff2') format('woff2'), url('font/muli-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mulibolditalic';
+    src: url('font/muli-bolditalic-webfont.woff2') format('woff2'), url('font/muli-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'muliextralight';
+    src: url('font/muli-extralight-webfont.woff2') format('woff2'), url('font/muli-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'muliextralightitalic';
+    src: url('font/muli-extralightitalic-webfont.woff2') format('woff2'), url('font/muli-extralightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'muliregularitalic';
+    src: url('font/muli-italic-webfont.woff2') format('woff2'), url('font/muli-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mulilight';
+    src: url('font/muli-light-webfont.woff2') format('woff2'), url('font/muli-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mulilightitalic';
+    src: url('font/muli-lightitalic-webfont.woff2') format('woff2'), url('font/muli-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mulisemibold';
+    src: url('font/muli-semibold-webfont.woff2') format('woff2'), url('font/muli-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mulisemibolditalic';
+    src: url('font/muli-semi-bolditalic-webfont.woff2') format('woff2'), url('font/muli-semi-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    background: url("img/hero.png")center;
+    height: 535px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+    font-family: "mulisemibold";
+    font-size: 12px;
+    padding-right: 51px;
+}
+
+button.btn.btn-outline-success.my-2.my-sm-0 {
+    background: #00A5F4;
+    color: #ffffff;
+    width: 120px;
+    height: 42px;
+}
+
+#wo {
+    padding-top: 150px;
+    padding-bottom: 35px;
+    font-family: "mulisemibold";
+    font-size: 35px;
+    color: #303030;
+}
+
+#pr1 {
+    font-family: "mulilight";
+    font-size: 16px;
+    color: #303030;
+}
+
+.bt1 {
+    font-family: "mulibold";
+    font-size: 12px;
+    color: #82C141;
+    width: 205px;
+    height: 50px;
+    background: #ffffff;
+    border: solid 0px;
+}
+
+.bt1:hover {
+    background: #82C141;
+    color: #ffffff;
+}
+
+#po {
+    padding-top: 164px;
+    font-family: "mulisemibold";
+    font-size: 40px;
+    color: #303030;
+    padding-bottom: 65px;
+}
+
+#sc4 {
+    background: #F8F8F8;
+    height: 600px;
+}
+
+#girl {
+    padding-top: 95px;
+}
+
+#col11 {
+    padding-left: 86px;
+}
+
+#mil {
+    font-family: "mulisemibold";
+    font-size: 30px;
+    color: #303030;
+    padding-bottom: 10px;
+}
+
+#eti {
+    font-family: "mulilight";
+    font-size: 15px;
+    color: #303030;
+}
+
+.bt2 {
+    font-family: "mulibold";
+    font-size: 12px;
+    color: #00A5F4;
+    width: 232px;
+    height: 50px;
+    border: solid 0 #F8F8F8;
+    background: #F8F8F8;
+}
+
+.bt2:hover {
+    background: #00A5F4;
+    color: #ffffff;
+}
+
+#our {
+    font-family: "mulisemibold";
+    font-size: 20px;
+    color: #303030;
+    padding-top: 37px;
+    padding-bottom: 10px;
+}
+
+.logo {
+    padding-right: 10px;
+}
+
+#sc5 {
+    background: #ffffff;
+    height: 571px;
+}
+
+.fl {
+    font-family: "mulisemibold";
+    font-size: 25px;
+    color: #303030;
+    padding-top: 196px;
+    padding-bottom: 20px;
+}
+
+.dow {
+    font-family: "mulilight";
+    font-size: 18px;
+    color: #303030;
+    padding-bottom: 45px;
+}
+
+footer {
+    background: #303030;
+    height: 401px;
+}
+
+#last {
+    padding-top: 57px;
+    padding-bottom: 77px;
+}
+
+.relative {
+    position: relative;
+    width: auto;
+    height: 890px;
+}
+
+.absolute {
+    position: absolute;
+    height: auto;
+    width: auto;
+}
+
+.london {
+    top: 0;
+    left: -19px;
+}
+
+.paris {
+    top: 0;
+    left: 310px;
+}
+
+.dubai {
+    top: 0;
+    left: 620px;
+}
+
+.amsterdam {
+    top: 310px;
+    left: 0px;
+}
+
+.rome {
+    top: 310px;
+    left: 310px;
+}
+
+.ny {
+    top: 620px;
+    left: 310px;
+}
+
+.barca {
+    top: 620px;
+    left: 930px;
+}
+
+#pick {
+    padding-top: 255px;
+    padding-bottom: 65px;
+}
+
+.pre {
+    font-family: "mulibold";
+    font-size: 14px;
+    color: #ffffff;
+    background: #F5A623;
+    width: 87px;
+    height: 36px;
+    border: solid 0 #F5A623;
+}
+
+#contact {
+    color: #ffffff;
+    font-family: "mulilight";
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+#site {
+    font-family: "mulisemibold";
+    font-size: 13px;
+    color: #ffffff;
+}
+
+footer .btn {
+    background: #ffffff;
+    color: #000000;
+    font-family: "mulilight";
+    font-size: 13px;
+    width: 235px;
+    height: 35px;
+    text-align: left;
+}
+
+.dropdown {
+    padding-bottom: 8px;
+}
+
+.com {
+    font-family: "mulisemibold";
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.ab {
+    color: #ffffff;
+    font-family: "mulilight";
+    font-size: 13px;
+}
+
+#end {
+    padding-bottom: 90px;
+}
+
+#ending {
+    border-bottom: solid 1px #535353;
+}
+
+i {
+    padding-right: 20px;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#cr {
+    padding-bottom: 150px;
+}
