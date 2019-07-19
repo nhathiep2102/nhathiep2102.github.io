@@ -307,6 +307,9 @@ h3 {
     #play {
         width: 50%;
     }
+    button.navbar-toggler {
+        background-color: #ffffff !important;
+    }
 }
 
 
