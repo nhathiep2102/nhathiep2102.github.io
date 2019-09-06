@@ -56,34 +56,87 @@ nav{
 /*banner*/
 
 .banner{
-    background-image: url("../img/homepage/bn.png");
+    background-image: url("../img/discover/bannerd.jpg");
     height: 650px;
+    margin-bottom: 15px;
 }
 
 h1{
     color: white;
-    padding-top: 210px;
+    padding-top: 120px;
     font-size: 50px;
     font-weight: bold;
 }
 
-#kpes{
-    background-color: transparent;
-    font-size: 30px;
-    border: solid 3px white;
-    width: 290px;
-    margin-top: 10px;
-    font-weight: bold;
-}
-
-#kp{
+#st{
     color: white;
+    font-size: 25px;
+    font-weight: 380;
+    margin-top: 50px;
 }
 
+/*section 1*/
+.wrap{
+    position: relative;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+h2{
+    position: absolute;
+    left: 10%;
+    bottom: 8%;
+    color: white;
+    font-size: 20px;
+}
+
+.overlay {
+    position: absolute; 
+    bottom: 15px; 
+    background: #292929;
+    background: #292929; /* Black see-through */
+    color: white; 
+    width: 100%;
+    transition: .5s ease-in-out;
+    opacity:0;
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+  }
+
+  h3{
+      font-size: 20px;
+  }
+  
+  .wrap:hover .overlay {
+    opacity: 1;
+  }
+
+  #f{
+      max-height: 357px;
+  }
+
+  #x{
+    max-height: 375px;
+}
+
+#c{
+    max-height: 368px;
+}
+
+.g{
+    max-height: 361px;
+}
 /*footer*/
 footer{
     font-weight: bold;
     color: white;
+    margin-top: 15px;
 }
 
 .ft1{
@@ -134,89 +187,4 @@ footer{
 
 .ft12{
     padding-left: 0!important;
-}
-
-/*sc1*/
-.sc1{
-    margin-top: 30px;
-    color: #292929;
-}
-
-h2{
-    font-weight: bold;
-    font-size: 25px;
-    margin-top: 30px;
-}
-
-
-.des{
-    font-size: 20px;
-    margin-top: 30px;
-    font-weight: 380;
-}
-
-.edi1{
-    font-size: 20px;
-    margin-top: 58px;
-    font-weight: 380;
-}
-
-.edi2{
-    font-size: 20px;
-    margin-top: 30px;
-    font-weight: 380;
-}
-
-.es{
-    background-color: transparent;
-    font-size: 25px;
-    border: solid 3px #292929;
-    width: 280px;
-    height: 50px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    font-weight: bold;
-}
-
-.es1{
-    color: #292929;
-}
-
-.c1{
-    padding-right: 10px!important;
-}
-
-.c2{
-    padding-left: 10px!important;
-}
-
-/*sc2*/
-.sc2{
-    background-color: #292929;
-    color: white;
-}
-.cr{
-    max-height: 456px;
-    width: 100%;
-}
-
-.ct{
-    margin-top: 30px;
-    font-size: 19.5px;
-    font-weight: 380;
-}
-
-.ds{
-    background-color: transparent;
-    font-size: 25px;
-    border: solid 3px white;
-    width: 280px;
-    height: 50px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    font-weight: bold;
-}
-
-.ds1{
-    color: white;
 }

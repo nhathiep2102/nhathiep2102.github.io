@@ -53,33 +53,6 @@ nav{
     font-weight: 380;
 }
 
-/*banner*/
-
-.banner{
-    background-image: url("../img/homepage/bn.png");
-    height: 650px;
-}
-
-h1{
-    color: white;
-    padding-top: 210px;
-    font-size: 50px;
-    font-weight: bold;
-}
-
-#kpes{
-    background-color: transparent;
-    font-size: 30px;
-    border: solid 3px white;
-    width: 290px;
-    margin-top: 10px;
-    font-weight: bold;
-}
-
-#kp{
-    color: white;
-}
-
 /*footer*/
 footer{
     font-weight: bold;
@@ -137,86 +110,33 @@ footer{
 }
 
 /*sc1*/
-.sc1{
-    margin-top: 30px;
+h1{
+    font-size: 50px;
     color: #292929;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#s1{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.sc2{
+    margin-top: 30px;
+    background-color: #ebebeb;
+    padding-bottom: 30px;
+}
+
+.s{
+    margin-top: 30px;
 }
 
 h2{
-    font-weight: bold;
     font-size: 25px;
-    margin-top: 30px;
-}
-
-
-.des{
-    font-size: 20px;
-    margin-top: 30px;
-    font-weight: 380;
-}
-
-.edi1{
-    font-size: 20px;
-    margin-top: 58px;
-    font-weight: 380;
-}
-
-.edi2{
-    font-size: 20px;
-    margin-top: 30px;
-    font-weight: 380;
-}
-
-.es{
-    background-color: transparent;
-    font-size: 25px;
-    border: solid 3px #292929;
-    width: 280px;
-    height: 50px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     font-weight: bold;
-}
-
-.es1{
-    color: #292929;
-}
-
-.c1{
-    padding-right: 10px!important;
-}
-
-.c2{
-    padding-left: 10px!important;
-}
-
-/*sc2*/
-.sc2{
-    background-color: #292929;
-    color: white;
-}
-.cr{
-    max-height: 456px;
-    width: 100%;
-}
-
-.ct{
-    margin-top: 30px;
-    font-size: 19.5px;
-    font-weight: 380;
-}
-
-.ds{
-    background-color: transparent;
-    font-size: 25px;
-    border: solid 3px white;
-    width: 280px;
-    height: 50px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    font-weight: bold;
-}
-
-.ds1{
-    color: white;
 }

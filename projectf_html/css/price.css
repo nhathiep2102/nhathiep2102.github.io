@@ -53,11 +53,10 @@ nav{
     font-weight: 380;
 }
 
-/*banner*/
-
+/* banner*/
 .banner{
-    background-image: url("../img/homepage/bn.png");
-    height: 650px;
+    background-image: url("../img/Price/NXBanner2.jpg");
+    height: 450px;
 }
 
 h1{
@@ -67,23 +66,11 @@ h1{
     font-weight: bold;
 }
 
-#kpes{
-    background-color: transparent;
-    font-size: 30px;
-    border: solid 3px white;
-    width: 290px;
-    margin-top: 10px;
-    font-weight: bold;
-}
-
-#kp{
-    color: white;
-}
-
 /*footer*/
 footer{
     font-weight: bold;
     color: white;
+    margin-top: 20px;
 }
 
 .ft1{
@@ -136,87 +123,36 @@ footer{
     padding-left: 0!important;
 }
 
-/*sc1*/
-.sc1{
-    margin-top: 30px;
-    color: #292929;
+/*section*/
+
+img{
+    max-height: 105.16px;
+    transition: all .5s;
 }
 
 h2{
+    margin-top: 20px;
     font-weight: bold;
-    font-size: 25px;
-    margin-top: 30px;
+    font-size: 35px;
 }
 
-
-.des{
-    font-size: 20px;
-    margin-top: 30px;
-    font-weight: 380;
-}
-
-.edi1{
-    font-size: 20px;
-    margin-top: 58px;
-    font-weight: 380;
-}
-
-.edi2{
-    font-size: 20px;
-    margin-top: 30px;
-    font-weight: 380;
-}
-
-.es{
-    background-color: transparent;
-    font-size: 25px;
-    border: solid 3px #292929;
-    width: 280px;
-    height: 50px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+h3{
+    margin-top: 20px;
     font-weight: bold;
+    font-size: 30px;
 }
 
-.es1{
-    color: #292929;
-}
-
-.c1{
-    padding-right: 10px!important;
-}
-
-.c2{
-    padding-left: 10px!important;
-}
-
-/*sc2*/
-.sc2{
-    background-color: #292929;
-    color: white;
-}
-.cr{
-    max-height: 456px;
-    width: 100%;
-}
-
-.ct{
+p{
     margin-top: 30px;
-    font-size: 19.5px;
-    font-weight: 380;
+    font-size: 20px;
 }
 
-.ds{
-    background-color: transparent;
-    font-size: 25px;
-    border: solid 3px white;
-    width: 280px;
-    height: 50px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    font-weight: bold;
+.ac{
+    border-top: solid 1px #292929;
+    overflow: hidden;
 }
 
-.ds1{
-    color: white;
+img:hover{
+    transform: scale(1.3);
 }
+
