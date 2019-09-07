@@ -126,3 +126,25 @@ h2{
 #tl{
     margin-bottom: 30px;
 }
+
+/*menu*/
+
+.mn:hover{
+    color: #959595;
+}
+
+.ft:hover{
+  color: #959595;
+}
+
+.ds1:hover{
+  color: white;
+}
+
+.nav-item:hover{
+    color: white!important;
+}
+
+a:hover{
+    text-decoration: none;
+}

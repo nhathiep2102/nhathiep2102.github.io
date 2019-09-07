@@ -53,6 +53,20 @@ nav{
     font-weight: 380;
 }
 
+/*banner*/
+
+.banner{
+    background-image: url("../img/Award/lexus-ls+-concept-tokyo-motor-show-hero-1920x1080_tcm-3157-1155951.jpg");
+    height: 650px;
+}
+
+h1{
+    color: white;
+    padding-top: 480px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
 /*footer*/
 footer{
     font-weight: bold;
@@ -110,35 +124,109 @@ footer{
 }
 
 /*sc1*/
-h1{
-    font-size: 50px;
-    color: #292929;
-    font-weight: bold;
-    text-align: center;
+.sc1{
     margin-top: 50px;
+    margin-bottom: 50px;
+}
+.des{
+    font-weight: lighter;
+    font-size: 25px;
+    color: #292929;
+    margin-top: 20px;
     margin-bottom: 30px;
 }
 
-#s1{
-    width: 100%;
-    margin-bottom: 30px;
+#pf{
+    border-bottom: 1px solid black;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 10px;
 }
 
-.sc2{
-    margin-top: 30px;
+/*sc4*/
+.sc4{
     background-color: #ebebeb;
-    padding-bottom: 30px;
+}
+.p4{
+    font-size: 20px;
+    font-weight: lighter;
+    padding-bottom: 20px;
+    color: #292929;
 }
 
-.s{
+h4{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 150px;
+    margin-bottom: 20px;
+    color: #292929;
+}
+
+.s6{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*sc5*/
+.sc5{
+    background-color: black;
+}
+#st{
+    border-bottom: solid 1px white;
+    text-align: center;
+    color: white;
+    font-size: 25px;
     margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 10px; 
+}
+/*scgrid*/
+.sc6{
+    background-color: black;
+}
+.wrap{
+    position: relative;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+img{
+    display: block;
+    width: 100%;
 }
 
 h2{
-    font-size: 25px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    font-weight: bold;
+    position: absolute;
+    left: 10%;
+    bottom: 8%;
+    color: white;
+    font-size: 20px;
+}
+
+.overlay {
+    position: absolute; 
+    bottom: 15px; 
+    background: #292929;
+    background: #292929; /* Black see-through */
+    color: white; 
+    width: 100%;
+    transition: .5s ease-in-out;
+    opacity:0;
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+  }
+
+  h3{
+      font-size: 20px;
+  }
+  
+  .wrap:hover .overlay {
+    opacity: 1;
+  }
+
+.sc61{
+    padding-bottom: 30px;
 }
 
 /*menu*/
@@ -158,6 +246,7 @@ h2{
 .nav-item:hover{
     color: white!important;
 }
+
 a:hover{
     text-decoration: none;
 }

@@ -56,87 +56,21 @@ nav{
 /*banner*/
 
 .banner{
-    background-image: url("../img/discover/bannerd.jpg");
+    background-image: url("../img/Takumi/17-03-15-lexus-ls-glass-details.jpg");
     height: 650px;
-    margin-bottom: 15px;
 }
 
 h1{
     color: white;
-    padding-top: 120px;
+    padding-top: 480px;
     font-size: 50px;
     font-weight: bold;
 }
 
-#st{
-    color: white;
-    font-size: 25px;
-    font-weight: 380;
-    margin-top: 50px;
-}
-
-/*section 1*/
-.wrap{
-    position: relative;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-img{
-    display: block;
-    width: 100%;
-}
-
-h2{
-    position: absolute;
-    left: 10%;
-    bottom: 8%;
-    color: white;
-    font-size: 20px;
-}
-
-.overlay {
-    position: absolute; 
-    bottom: 15px; 
-    background: #292929;
-    background: #292929; /* Black see-through */
-    color: white; 
-    width: 100%;
-    transition: .5s ease-in-out;
-    opacity:0;
-    color: white;
-    font-size: 18px;
-    padding: 20px;
-  }
-
-  h3{
-      font-size: 20px;
-  }
-  
-  .wrap:hover .overlay {
-    opacity: 1;
-  }
-
-  #f{
-      max-height: 357px;
-  }
-
-  #x{
-    max-height: 375px;
-}
-
-#c{
-    max-height: 368px;
-}
-
-.g{
-    max-height: 361px;
-}
 /*footer*/
 footer{
     font-weight: bold;
     color: white;
-    margin-top: 15px;
 }
 
 .ft1{
@@ -187,6 +121,112 @@ footer{
 
 .ft12{
     padding-left: 0!important;
+}
+
+/*sc1*/
+.sc1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.des{
+    font-weight: lighter;
+    font-size: 25px;
+    color: #292929;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#pf{
+    border-bottom: 1px solid black;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+/*sc4*/
+.sc4{
+    background-color: #ebebeb;
+}
+.p4{
+    font-size: 20px;
+    font-weight: lighter;
+    padding-bottom: 20px;
+    color: #292929;
+}
+
+h4{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    color: #292929;
+}
+
+.s6{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*sc5*/
+.sc5{
+    background-color: black;
+}
+#st{
+    border-bottom: solid 1px white;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 10px; 
+}
+/*scgrid*/
+.sc6{
+    background-color: black;
+}
+.wrap{
+    position: relative;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+h2{
+    position: absolute;
+    left: 10%;
+    bottom: 8%;
+    color: white;
+    font-size: 20px;
+}
+
+.overlay {
+    position: absolute; 
+    bottom: 15px; 
+    background: #292929;
+    background: #292929; /* Black see-through */
+    color: white; 
+    width: 100%;
+    transition: .5s ease-in-out;
+    opacity:0;
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+  }
+
+  h3{
+      font-size: 20px;
+  }
+  
+  .wrap:hover .overlay {
+    opacity: 1;
+  }
+
+.sc61{
+    padding-bottom: 30px;
 }
 
 /*menu*/
