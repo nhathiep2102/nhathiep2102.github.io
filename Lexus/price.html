@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>LEXUS</title>
+    <title>Bảng giá</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,8 +10,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/drive.css">
-    <link rel="shortcut icon" type="image/png" href="img/homepage/fv.png" />
+    <link rel="stylesheet" href="css/price.css">
+    <link rel="shortcut icon" type="image/png" href="img/homepage/fv.png"/>
     <!--Font Google-->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
 </head>
@@ -52,83 +52,114 @@
 
         <div class="banner">
             <div class="container">
-                <h1>LÁI THỬ LEXUS</h1>
+                <h1>BẢNG GIÁ</h1>
             </div>
         </div>
     </header>
 
-    <div class="content">
-        <section class="container sc1">
+    <div class="content container">
+        <section>
+            <h2>SEDAN</h2>
             <div class="row">
-                <div class="col-md-4 col-sm-6 col-6">
-                    <img src="img/drive/d11.png" class="img-fluid" alt="Responsive image">
+                <div class="col-md-3 col-sm-6 col-6 ac">
+                    <h3>ES</h3>
+                    <a href="es250.html"><img src="img/Price/sedan-es.png" class="img-fluid s"
+                            alt="Responsive image"></a>
+                    <p>2.499.000.000 VNĐ</p>
                 </div>
-                <div class="col-md-8 col-sm-6 col-6">
+                <div class="col-md-3 col-sm-6 col-6 ac">
+                    <h3>LS</h3>
+                    <a href="ls500.html"><img src="img/Price/ls500h.png" class="img-fluid s" alt="Responsive image"></a>
+                    <p>7.080.000.000 VNĐ</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>SUV</h2>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-6 ac">
+                    <h3>NX</h3>
+                    <a href="nx.html"><img src="img/Price/NX300.png" class="img-fluid s" alt="Responsive image"></a>
+                    <p>2.510.000.000 VNĐ</p>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6 ac">
+                    <h3>RX</h3>
+                    <a href="rx350.html"><img src="img/Price/suv-rx.png" class="img-fluid s" alt="Responsive image"></a>
+                    <p>3.040.000.000 VNĐ</p>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6 ac">
+                    <h3>LX</h3>
+                    <a href="lx570.html"><img src="img/Price/suv-lx.png" class="img-fluid s" alt="Responsive image"></a>
+                    <p>8.180.000.000 VNĐ</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>COUPE</h2>
                     <div class="row">
-                        <div class="col-md-12">
-                            <h2>ĐĂNG KÝ LÁI THỬ</h2>
+                        <div class="col-md-6 col-sm-12 col-12 ac">
+                            <h3>RC</h3>
+                            <a href="rc.html"><img src="img/Price/rc-350.png" class="img-fluid s"
+                                    alt="Responsive image"></a>
+                            <p>3.270.000.000 VNĐ</p>
+                        </div>
+                        <div class="col-md-6 col-sm-12 col-12 ac">
+                            <h3>LC</h3>
+                            <a href="lc.html"><img src="img/Price/lc.jpg" class="img-fluid s"
+                                    alt="Responsive image"></a>
+                            <p>7.270.000.000 VNĐ</p>
                         </div>
                     </div>
-
-                    <form action="drivesc.html" id="form-register">
-                        <div class="row">
-                            <div class="col-md-5 col-sm-6 col-6">
-                                <label for="dx">Danh xưng:</label>
-                                <select name="Danh xưng" id="dx">
-                                    <option>Chọn danh xưng...</option>
-                                    <option>Ông</option>
-                                    <option>Bà</option>
-                                </select>
-                                <span class="error"></span><br />
-
-                                
-                                <label for="name">Họ Tên:</label>
-                                <input type="text" name="Họ Tên" placeholder="Họ Tên" id="name">
-                                <span class="error"></span><br />
-                                
-
-                                <label for="phone">Điện thoại:</label>
-                                <input type="text" name="Điện thoại" placeholder="Số điện thoại" id="phone"><span
-                                    class="error"></span><br />
-
-
-                            </div>
-
-                            <div class="col-md-1"></div>
-                            <div class="col-md-6 col-sm-6 col-6">
-
-
-                                <label for="bday">Ngày lái thử:</label>
-                                <input class="lb" type="date" name="Ngày lái thử" id="bday" /><span class="error er1"></span><br />
-
-                                <label for="mx">Mẫu xe:</label>
-                                <select class="lb" name="Mẫu xe" id="mx">
-                                    <option>Chọn mẫu xe...</option>
-                                    <option>ES250</option>
-                                    <option>LS500</option>
-                                    <option>RX350</option>
-                                    <option>LX570</option>
-                                    <option>NX200</option>
-                                    <option>RC300</option>
-                                </select><span class="error er1"></span><br />
-
-                                <label for="shop">Đại lý:</label>
-                                <select class="lb" name="Đại lý" id="shop">
-                                    <option>Chọn đại lý...</option>
-                                    <option>Lexus Thăng Long</option>
-                                    <option>Lexus Sài Gòn</option>
-                                </select><span class="error er1"></span><br />
-
-                                <input type="submit" value="HOÀN TẤT" id="dangky" />
-                            </div>
-                    </form>
-
                 </div>
-                </form>
-
+                <div class="col-md-6">
+                    <h2>HYBRID</h2>
+                    <div class="row">
+                        <div id="ls" class="col-md-6 col-sm-12 col-12 ac">
+                            <h3>LS</h3>
+                            <a href="ls500.html"><img src="img/Price/ls500h.png" class="img-fluid s"
+                                    alt="Responsive image"></a>
+                            <p>7.710.000.000 VNĐ</p>
+                        </div>
+                        <div class="col-md-6 col-sm-12 col-12 ac">
+                            <h3>RX</h3>
+                            <a href="rx350.html"><img src="img/Price/suv-rx.png" class="img-fluid s"
+                                    alt="Responsive image"></a>
+                            <p>4.450.000.000 VNĐ</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-    </div>
-    </section>
+        </section>
+
+        <section>
+            <h2>TURBO</h2>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-6 ac">
+                    <h3>NX</h3>
+                    <a href="nx.html"><img src="img/Price/NX300.png" class="img-fluid s" alt="Responsive image"></a>
+                    <p>2.910.000.000 VNĐ</p>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6 ac">
+                    <h3>RX</h3>
+                    <a href="rx350.html"><img src="img/Price/suv-rx.png" class="img-fluid s" alt="Responsive image"></a>
+                    <p>3.890.000.000 VNĐ</p>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6 ac">
+                    <h3>RC</h3>
+                    <a href="rc.html"><img src="img/Price/rc-350.png" class="img-fluid s" alt="Responsive image"></a>
+                    <p>3.270.000.000 VNĐ</p>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6 ac">
+                    <h3>LS</h3>
+                    <a href="ls500.html"><img src="img/Price/ls500h.png" class="img-fluid s" alt="Responsive image"></a>
+                    <p>7.180.000.000 VNĐ</p>
+                </div>
+            </div>
+        </section>
     </div>
 
     <footer>
@@ -170,8 +201,6 @@
         </div>
     </footer>
     <!-- Optional JavaScript -->
-    <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="js/dr.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
