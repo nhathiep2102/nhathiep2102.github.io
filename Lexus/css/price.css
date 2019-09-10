@@ -176,3 +176,7 @@ img:hover{
 a:hover{
     text-decoration: none;
 }
+
+.kp{
+    color: white!important;
+}
