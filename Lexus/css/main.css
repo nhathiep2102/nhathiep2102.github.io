@@ -58,6 +58,7 @@ nav{
 .banner{
     background-image: url("../img/homepage/bn.png");
     height: 650px;
+    background-size: 100%;
 }
 
 h1{
@@ -318,6 +319,12 @@ button a {
       .navbar-toggler{
           float: right;
       }
+      .row{
+        margin:0!important;
+    }
+    .banner{
+        background-size: auto;
+    }
 
       .nav1{
         float: right;
@@ -407,6 +414,9 @@ button a {
           padding-left: 20px;
           padding-right: 20px;
       }
+      .banner{
+        background-size: auto;
+    }
       a.ft{
           font-size: 13px!important;
           padding-right: 0!important;
@@ -452,6 +462,9 @@ button a {
     .container{
         padding-left: 10px;
         padding-right: 10px;
+    }
+    .banner{
+        background-size: auto;
     }
     .mnp{
         padding-left: 20px;

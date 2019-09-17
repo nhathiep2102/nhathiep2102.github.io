@@ -57,6 +57,7 @@ nav{
 .banner{
     background-image: url("../img/Price/NXBanner2.jpg");
     height: 450px;
+    background-size: 100%;
 }
 
 h1{
@@ -228,6 +229,9 @@ a:hover{
     .navbar-toggler{
         float: right;
     }
+    .banner{
+        background-size: auto;
+    }
 
     .nav1{
       float: right;
@@ -293,6 +297,9 @@ and (max-width : 768px)
       padding-left: 10px;
       padding-right: 10px;
   }
+  .banner{
+    background-size: auto;
+}
   .mnp{
       font-size: 20px;
       padding-left: 20px;
@@ -346,6 +353,9 @@ and (max-width : 1024px)
     padding-left: 20px;
     padding-right: 20px;
     font-size: 22px;
+}
+.banner{
+    background-size: auto;
 }
 h1{
     padding-left: 30px;

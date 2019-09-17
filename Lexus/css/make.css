@@ -58,6 +58,7 @@ nav{
 .banner{
     background-image: url("../img/Takumi/17-03-15-lexus-ls-glass-details.jpg");
     height: 650px;
+    background-size: 100%;
 }
 
 h1{
@@ -314,6 +315,9 @@ a:hover{
         padding-left: 5px;
         padding-top: 20px!important;
     }
+    .banner{
+        background-size: auto;
+    }
 
     footer{
         font-size: 18px;
@@ -367,6 +371,9 @@ and (max-width : 768px)
       padding-left: 20px;
       padding-right: 20px;
   }
+  .banner{
+    background-size: auto;
+}
   a.ft{
       font-size: 13px!important;
       padding-right: 0!important;
@@ -413,6 +420,9 @@ and (max-width : 1024px)
     padding-left: 20px;
     padding-right: 20px;
     font-size: 22px;
+}
+.banner{
+    background-size: auto;
 }
 h1{
     padding-left: 30px;

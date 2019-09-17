@@ -267,6 +267,7 @@ a:hover{
     padding-right: 20px;
 }
 
+
 }
 
 /*responsive ipad*/
@@ -312,7 +313,7 @@ and (max-width : 768px)
 
 h1{
     padding-left: 30px;
-    font-size:45px;
+    font-size:40px;
 }
 
 }
@@ -330,9 +331,10 @@ and (max-width : 1024px)
     font-size: 22px;
 }
 h1{
-    padding-left: 30px;
-    font-size:45px;
+    padding-left: 0px;
+    font-size: 40px;
 }
+
 #kpes{
     margin-left: 30px;
 } 
