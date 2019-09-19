@@ -58,6 +58,7 @@ nav{
 .banner{
     background-image: url("../img/LS/Lexus-LS-gallery-obsidian-1204x677-LEX-LSG-MY18-0041-10_M75.jpg");
     height: 650px;
+    background-size: 100%;
 }
 
 h1{
